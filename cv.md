@@ -39,3 +39,6 @@ $('.del-btn').click(function(e) {
 ```
 ## **Experience**
 Mainly used JS and PHP for university projects
+## **Education**
+
+"Applied Mathematics and Informatics", 3 years
