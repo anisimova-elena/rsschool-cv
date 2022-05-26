@@ -37,3 +37,5 @@ $('.del-btn').click(function(e) {
     })
 });
 ```
+## **Experience**
+Mainly used JS and PHP for university projects
