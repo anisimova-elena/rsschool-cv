@@ -11,7 +11,9 @@
 **Discord nickname on RS-School server**: Elena (@anisimova-elena)
 
 ***
+
 I am at the beginning of my path as a Frontend developer and I want to become a high-level specialist. It's a big goal but I'm ready to learn
+
 ***
 
 ## **Skills**
