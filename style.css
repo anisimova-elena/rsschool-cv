@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    
   } 
 html {
     scroll-behavior: smooth; 
   }
+
 body {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
@@ -32,4 +34,15 @@ body {
     padding: 0 20px;
     line-height: 50px;
     color:#1A1A1A;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E0F2F5;
+}
+.footer-element {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
