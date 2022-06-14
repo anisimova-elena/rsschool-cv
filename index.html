@@ -14,21 +14,77 @@
 <body>
     <header class = "header">
         <div class="container">
-            <h1 class="name">Anisimova Elena</h1>
             <nav class="nav">
                 <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
                 <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                 <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
+            <div class="name-section">
+                <h1 class="name">Anisimova Elena</h1>
+                <img class="avatar" src="assets/avatar.jpg" alt="avatar">
+            </div>
         </div>
     </header>
     <main class="main">
-        <div class="container"></div>
+        <div class="container main-container">
+            <section class="section" id="contacts" >
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts">
+                    <li class="contacts-item"><b>Phone:</b> +123 456789</li>
+                    <li class="contacts-item"><b>Email:</b> elena.anis17@gmail.com</li>
+                    <li class="contacts-item"><b>Discord:</b> @fvtnbcn#9419</li>
+                    <li class="contacts-item"><b>Discord nickname on RS-School server:</b> Elena (@anisimova-elena)</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <p>
+                    HTML, CSS, JavaScript, Git, Figma, Photoshop
+                </p>
+            </section>
+            <section class="section" id="code-example">
+                <div class="code-example">
+                    <h2 class="section-title">Code Example</h2>
+                    <pre><code>
+                        $('.del-btn').click(function(e) {
+                        e.preventDefault(); 
+                    
+                        $.ajax({
+                            url: 'delete-general.php', 
+                            type: 'POST',
+                            dataType: 'json',
+                            data: { 
+                                id: id
+                            },
+                    
+                            success (result) {
+                                if (result.status) {
+                                    document.location.href = "table-general.php";
+                                }
+                            }
+                        })
+                    </code></pre>
+                </div>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p>Project: CV using Markdown:
+                    <a href="https://anisimova-elena.github.io/rsschool-cv/cv">Link</a>
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>“Applied Mathematics and Informatics”, 3 years</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 (in progress)</p>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
@@ -38,7 +94,7 @@
             </a>
             <p>© 2022</p>
             <a href="https://github.com/anisimova-elena/" target="_blank">
-                <img class="footer-element"src="assets/GitHub-Mark-64px.png" alt="github logo">
+                <img class="footer-element" src="assets/GitHub-Mark-64px.png" alt="github logo">
             </a>
         </div>
     </footer>

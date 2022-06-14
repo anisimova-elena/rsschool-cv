@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Konstant Grotesk;
+   src: url("assets/fonts/KonstantGrotesk-Book.otf");
+ }
 * {
     box-sizing: border-box;
     
@@ -23,8 +27,23 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+.name-section{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .name{
     font-weight: bold;
+}
+.avatar{
+  border-radius: 50%;
+  height:100px;
+}
+.nav{
+  padding: 10px 0;
+  background-color: #E0F2F5;
 }
 .nav-list {
     display: flex;
@@ -35,14 +54,31 @@ body {
 .nav-link {
     transition: .3s;
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 5px;
     color:#1A1A1A;
+}
+.section-title{
+  font-family: Konstant Grotesk;
+}
+.contacts-item{
+  padding: 5px 0;
+}
+
+.main-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+      background-color: #E0F2F5;
 }
 .footer-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #E0F2F5;
 }
 .footer-element {
   height: 30px;
