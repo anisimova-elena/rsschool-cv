@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header class="header">
         <div class="container">
@@ -52,7 +50,6 @@
                     <pre><code>
                         $('.del-btn').click(function(e) {
                         e.preventDefault(); 
-                    
                         $.ajax({
                             url: 'delete-general.php', 
                             type: 'POST',
@@ -60,7 +57,6 @@
                             data: { 
                                 id: id
                             },
-                    
                             success (result) {
                                 if (result.status) {
                                     document.location.href = "table-general.php";
@@ -87,7 +83,6 @@
             </section>
         </div>
     </main>
-
     <footer class="footer">
         <div class="container footer-container">
             <a class="rs-school" href="https://rs.school/js/" target="_blank">
@@ -100,5 +95,4 @@
         </div>
     </footer>
 </body>
-
 </html>
