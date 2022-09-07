@@ -49,16 +49,16 @@
                     <h2 class="section-title">Code Example</h2>
                     <pre><code>
                         $('.del-btn').click(function(e) {
-                        e.preventDefault(); 
+                        e.preventDefault();
                         $.ajax({
-                            url: 'delete-general.php', 
+                            url: 'delete-general.php',
                             type: 'POST',
                             dataType: 'json',
-                            data: { 
+                            data: {
                                 id: id
                             },
-                            success (result) {
-                                if (result.status) {
+                            success (result){
+                                if (result.status){
                                     document.location.href = "table-general.php";
                                 }
                             }
