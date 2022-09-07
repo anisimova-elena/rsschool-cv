@@ -1,70 +1,69 @@
 @font-face {
   font-family: Konstant Grotesk;
-   src: url("assets/fonts/KonstantGrotesk-Book.otf");
- }
+  src: url("assets/fonts/KonstantGrotesk-Book.otf");
+}
 * {
-    box-sizing: border-box;
-    
-  } 
+  box-sizing: border-box;
+}
 html {
-    scroll-behavior: smooth; 
-  }
+  scroll-behavior: smooth;
+}
 
 body {
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
-  margin: 0; 
+  font-family: "Inter", sans-serif;
+  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-image: url(assets/background.svg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
   background-position: right top;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-.name-section{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.name-section {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-.name{
-    font-weight: bold;
+.name {
+  font-weight: bold;
 }
-.avatar{
+.avatar {
   border-radius: 50%;
-  height:100px;
+  height: 100px;
 }
-.nav{
+.nav {
   padding: 10px 0;
-  background-color: #E0F2F5;
+  background-color: #e0f2f5;
 }
 .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 }
 .nav-link {
-    transition: .3s;
-    padding: 0 20px;
-    line-height: 5px;
-    color:#1A1A1A;
+  transition: 0.3s;
+  padding: 0 20px;
+  line-height: 5px;
+  color: #1a1a1a;
 }
-.section-title{
+.section-title {
   font-family: Konstant Grotesk;
 }
-.contacts-item{
+.contacts-item {
   padding: 5px 0;
 }
 
-.main-container{
+.main-container {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 800px;
@@ -72,13 +71,13 @@ body {
   margin-right: auto;
 }
 
-.footer{
-      background-color: #E0F2F5;
+.footer {
+  background-color: #e0f2f5;
 }
-.footer-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .footer-element {
   height: 30px;
